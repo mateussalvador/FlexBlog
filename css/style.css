@@ -236,8 +236,12 @@ header {
 }
 
 /*qualidade*/
+
+.qualidade {
+  justify-content: center;
+}
 .qualidade-item {
-  flex: 0 1 300px;
+  flex: 0 1 240px;
   margin: 20px 10px;
 }
 .qualidade h3 {
@@ -256,7 +260,7 @@ header {
   background-color: var(--purple);
 }
 
-.qualidade-item:nth-child(n + 3) h3::before {
+.qualidade-item:nth-child(3n + 2) h3::before {
   background-color: var(--pink);
 }
 
